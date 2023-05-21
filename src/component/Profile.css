@@ -1,0 +1,34 @@
+.profile-container {
+    /* width: 30%; */
+    margin-top: 15px;
+    height: 125px;
+    min-height: 125px;
+    max-height: 125px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.profile-container-div {
+    /* border: 1px solid darkblue; */
+    width: 90%;
+    min-width: 90%;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.profile-container-div > p{
+    margin-left: 6px;
+}
+#img {
+    width: 90px;
+    border-radius: 50px;
+}
+
+#username {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}

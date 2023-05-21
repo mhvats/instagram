@@ -1,0 +1,27 @@
+
+.Header-container {
+    /* border: 1px solid red; */
+    width: 100%;
+    border-bottom: 1px solid silver;
+    display: flex;
+    justify-content: space-evenly;
+}
+#chodu{
+    border: 1px solid white;
+    width: 10%;
+    min-width: 10%;
+    max-width: 10%;
+}
+#change-password {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#skip {
+    font-weight: 600;
+    color: #0095f6
+}
+#skip:hover{
+    color: #0085de;
+}
